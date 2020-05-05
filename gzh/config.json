@@ -1,0 +1,11 @@
+{
+    "total": 5000,
+    "concurrency": 50,
+    "proto": "./hello.proto",
+    "call": "pb.HelloService.SayHello",
+    "data": {
+      "greeting": "hello world"
+    },
+    "host": "127.0.0.1:9999",
+    "insecure": true
+  }
